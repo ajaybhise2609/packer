@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Home Page User Data
 # For 1A and 2A Home Page Servers
