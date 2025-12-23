@@ -10,9 +10,9 @@ sudo apt install -y nginx
 sudo sed -i 's/<h1>Welcome to nginx!<\/h1>/<h1>Welcome to Homepage<\/h1>/' /var/www/html/index.nginx-debian.html
 
 # Add additional content to the HTML file
-echo '<a href="https://www.cloudvishwakarma.in/movies/">Visit For Movies</a>' | sudo tee -a /var/www/html/index.nginx-debian.html
+echo '<a href="https://www.ajaydevops.co.in/movies/">Visit For Movies</a>' | sudo tee -a /var/www/html/index.nginx-debian.html
 echo '<br>' | sudo tee -a /var/www/html/index.nginx-debian.html
-echo '<a href="https://www.cloudvishwakarma.in/shows/">Visit For Shows</a>' | sudo tee -a /var/www/html/index.nginx-debian.html
+echo '<a href="https://www.ajaydevops.co.in/shows/">Visit For Shows</a>' | sudo tee -a /var/www/html/index.nginx-debian.html
 
 # Start and enable nginx
 sudo systemctl start nginx
